@@ -1,0 +1,491 @@
+ count 
+-------
+     6
+(1 row)
+
+ usr_fname | usr_reviewcount 
+-----------+-----------------
+ Victor    |           14455
+ Bruce     |           12487
+ Fox       |           11112
+ Rob       |            5156
+ George    |            7745
+ Jennifer  |            6633
+ Eric      |            5500
+ Kenneth   |            6762
+ Shila     |           12772
+ Nijole    |            7626
+ Jack      |            5013
+ Kim       |            9875
+(12 rows)
+
+         rev_id         | rev_rating |      rev_date       
+------------------------+------------+---------------------
+ hXYePvMOsA6oui9t2HFulA |          5 | 2019-04-07 16:10:18
+ eSyPW3Xnh6i0DrN84QKQDA |          5 | 2016-10-06 12:13:27
+ ndV1ApW2RkzYAEmQA1BQrQ |          3 | 2018-10-26 01:01:19
+ ZyB0OQtXMk8by_2iSMGhBA |          1 | 2019-06-30 21:23:28
+ Mv-5BlhTcgbD2vUXa8R0VA |          1 | 2019-07-10 15:17:22
+ yZ6UbvNQJ5j8rUYDrZYTcA |          4 | 2019-11-28 02:27:40
+ Uui0UHevFxMIli1nN2-BQA |          4 | 2011-09-12 16:02:54
+ XrHSywPyczsU5YDTMCPBhA |          5 | 2019-12-02 02:28:53
+ tx4c5QlrvOzTv6zEAz9sEw |          2 | 2016-06-22 17:16:32
+ BhZ-hUlCEi9HXueP0wJF1Q |          5 | 2019-09-01 21:31:56
+ 4ecXqIQPV0n4Hww9t346fg |          3 | 2019-12-02 23:37:11
+ XpEDeOycZCFvjgtSw7qf7Q |          3 | 2017-06-16 21:56:01
+ VfvPFLeRgRiQu_ePQ_BnVA |          5 | 2019-12-08 17:42:02
+ gMJKZpDJMxkYwpgeOUuanw |          1 | 2019-09-11 17:31:08
+ dWj-ycfN2QHaxqJVaublUw |          5 | 2019-08-20 21:41:32
+ G2aczOlPCEK2PpMO7C7B1w |          5 | 2018-07-13 03:31:20
+ 8cmg3ZhJgHEXPV9N-HOVSQ |          5 | 2019-12-03 09:22:19
+ kHC1gz7-pMoXyAX0JKwdfg |          1 | 2019-07-25 16:57:30
+ wSxzBxQ2_Wcjux8rPI_v_Q |          4 | 2019-12-04 00:39:06
+ 0qH6b7BRPoL-oCwQW1z2dg |          4 | 2018-11-25 23:06:50
+ hHv06PHPNoc3CwtJCn2M9A |          5 | 2019-12-04 03:43:46
+ fKLHqM3TuNE-CGBcLn5j6Q |          5 | 2019-11-20 22:37:19
+ tQINPWl4QlWoiQnPg4ZeNg |          5 | 2019-11-30 23:24:00
+ qRZKxP46GBA31iiLMNXBkg |          5 | 2019-12-08 22:24:53
+ 8HAz_BzDbZ2ymIN4Q7n2fg |          1 | 2019-12-05 09:32:02
+(25 rows)
+
+      tip_date       |                                                        tip_text                                                         
+---------------------+-------------------------------------------------------------------------------------------------------------------------
+ 2013-11-26 18:20:08 | Here for a quick mtg
+ 2014-06-15 22:26:45 | Cucumber strawberry refresher
+ 2016-07-18 22:03:42 | Very nice good service good food
+ 2014-06-06 01:10:34 | It's a small place. The staff is friendly.
+ 2015-05-20 20:17:38 | Great ramen! Not only is the presentation gorgeous but the food is so good! Go and sit outside, it's a good atmosphere.
+ 2014-09-01 01:23:48 | Cochinita Pibil was memorable & delicious !
+ 2012-05-29 02:05:56 | Kelly is an awesome waitress there!
+ 2012-10-14 02:11:37 | Girls night at a chick flick!
+ 2013-08-16 15:14:22 | Lovely locale, good food, but felt pricy.
+ 2014-06-14 00:44:00 | Just be ready to stand in line. But it moves along.
+ 2014-04-07 06:29:58 | If there's a wait, go sit at the bar! The bartenders were super friendly and made great drink recommendations.
+ 2016-04-19 09:33:45 | Great food. Been there a hand full of times and it always been on point.
+ 2012-03-16 02:02:27 | Must book your table
+ 2013-02-14 05:50:30 | Great guy!  Awesome show!  I would go see again. Maybe I'll get on stage next time.
+ 2014-08-28 21:40:22 | Quiet, relaxed, friendly. Great cuts, color and nails.
+ 2017-07-20 19:29:39 | Make a reservation.. even for lunch !! This place is busy..
+ 2015-09-07 07:04:12 | Closed Labor Day, Monday, September 7th
+ 2017-01-01 01:11:07 | Honey habanero is the best!
+ 2012-05-18 17:40:21 | Decent take-out pre-made lunches. The Salade Nicoise isn't half bad, and the coffee's very good.
+ 2013-06-01 01:58:05 | Danny K rocked us. Great service, good food, and such a great view!
+ 2012-01-01 02:33:27 | Great views of the city!
+ 2014-09-20 16:45:17 | Buy a magazine from Ruth.  What a neat concept to aid someone's path out of homelessness.
+ 2016-09-29 18:45:21 | Great outstanding service
+ 2014-06-09 23:52:02 | Saguaro Blossom margarita may be the only reason to drop in
+ 2012-04-01 02:37:42 | They were closed for the weekend, Lame! So much for being a good first impression!
+(25 rows)
+
+ loc_state 
+-----------
+ AB
+ AK
+ AL
+ AR
+ AZ
+ BC
+ CA
+ CO
+ CT
+ DOW
+ DUR
+ FL
+ GA
+ HI
+ HPL
+ IL
+ MB
+ MI
+ MO
+ NC
+ NE
+ NV
+ NY
+ OH
+ ON
+(25 rows)
+
+         rev_id         | rev_rating | rev_complimentsrecv |      rev_date       
+------------------------+------------+---------------------+---------------------
+ RAzTSf--H1s3KVOjTsVWJw |          2 |                 152 | 2018-05-10 07:41:49
+ 9YuWQbOvUgZDkAC8QJg8iA |          2 |                 217 | 2018-08-04 03:55:36
+ -WgR3537yKL2Rua-eIPFfw |          2 |                 163 | 2017-07-28 06:07:49
+ aVncB3el7uioyYoSEmU4Cg |          2 |                 230 | 2018-04-01 23:43:53
+ xzazfU8o57SXBDxOJ5nS-A |          2 |                 171 | 2018-01-18 18:32:07
+ Ace2IBHGwIurxBxgbDY1Kg |          2 |                 492 | 2016-01-03 14:41:09
+ w-y7CjCp_BdGXKM5Gg4aYA |          2 |                 183 | 2019-09-21 21:12:01
+ 6FrU5EhCvAJu_t-HPkojUA |          2 |                 179 | 2018-10-16 18:50:07
+ 1rr0nc0HnEJ8lo5GdPLHkQ |          2 |                 154 | 2016-08-23 12:23:40
+ WNfCdPZBCCFo7ZIkRarNeg |          2 |                 152 | 2018-03-19 17:08:02
+ Gwc8pVZvBExho5VlT-Xrvw |          2 |                 180 | 2019-01-30 02:35:37
+ yU7dapvewbrTtW8kiNTpwQ |          2 |                 220 | 2019-01-27 03:24:49
+ AkHjD8v4ByBp_hDpA_zj0g |          2 |                 155 | 2019-08-07 04:24:23
+ 33rqhZNsutSfNBrN6WTmTw |          2 |                 188 | 2018-11-03 23:10:04
+ BHJg5YxkzRzuFOBfbF7shg |          2 |                 171 | 2017-04-18 23:05:48
+ uibEVp87MFyllxBHD6oVVA |          2 |                 159 | 2019-01-02 03:18:51
+ Gh476Xk4ozbJ4IJhVzlT7Q |          2 |                 159 | 2018-03-17 03:34:02
+ osmmhfUuqAFzULJXycs3qQ |          2 |                 182 | 2016-03-21 18:09:39
+ eQHHNifDRGg-kRZozaYdZQ |          2 |                 180 | 2018-05-09 00:03:57
+ 43yFONcWDxIuPnCxN_VdxQ |          2 |                 229 | 2018-09-10 16:10:50
+ kiDcVOEKZHWrVVFQ3MZ2zQ |          2 |                 175 | 2016-01-26 08:21:05
+ NZ6BMtI1TO6r2RzHvsNhHg |          2 |                 155 | 2017-06-15 18:45:41
+ bbGEEPB_jcKqd8X_UMyMCA |          2 |                 161 | 2018-11-29 19:35:23
+ Th5YP5gYrPvyDNTHSpWfOA |          2 |                 179 | 2018-07-31 00:12:30
+ 0CUH2M1voo_z_2fV8Z48jQ |          2 |                 165 | 2018-05-22 18:59:16
+(25 rows)
+
+ usr_fname  |    usr_joindate     | usr_reviewcount 
+------------+---------------------+-----------------
+ Lauren     | 2015-06-07 15:48:22 |            1337
+ Alice      | 2015-03-06 06:33:38 |            1637
+ Denise     | 2015-02-26 17:59:41 |            3715
+ Abby       | 2015-09-09 00:01:05 |            1105
+ William    | 2015-02-19 19:06:34 |            1879
+ Kirsten    | 2015-03-20 21:02:34 |            1116
+ Dominik    | 2015-05-16 02:38:11 |            3352
+ Ryan       | 2016-01-01 17:41:02 |            1167
+ Matthew    | 2015-02-19 18:20:07 |            1623
+ Zachary    | 2015-07-22 13:53:24 |            1422
+ Zach       | 2016-07-03 21:01:43 |            1070
+ Tom        | 2016-10-02 03:46:37 |            1863
+ Anrana     | 2016-04-15 15:35:22 |            1111
+ Kristie    | 2015-02-03 16:30:57 |            1542
+ Cris       | 2016-04-27 22:32:36 |            1072
+ Steve      | 2016-01-03 14:51:26 |            2039
+ Michael    | 2015-02-24 16:29:32 |            1028
+ Richard    | 2015-06-06 12:50:43 |            1103
+ Giang-Tien | 2015-03-28 02:33:27 |            1327
+ Matt       | 2015-01-25 21:49:17 |            1061
+ Viviann    | 2016-09-20 22:42:52 |            1312
+ Jacques    | 2015-04-23 13:37:38 |            2013
+ Howard     | 2016-01-10 19:46:21 |            1302
+ Tania      | 2015-01-23 15:45:35 |            1215
+ Shelby     | 2016-07-02 18:40:14 |            1143
+(25 rows)
+
+       loc_city        
+-----------------------
+ las vegas
+ Hnederson
+ Paradise
+ Clark
+ Summerlin South
+ LAS VEGAS AP
+ Nellis Air Force Base
+ Green Valley
+ Pahrump
+ Centennial Hills
+ Enterprise
+ Lake Mead
+ Henderston
+ Whitney
+ Blue Diamond
+ Citibank
+ Nellis Afb
+ NELLIS AFB
+ W Spring Valley
+ Reno
+ Central Henderson
+ W Henderson
+ Decatur
+ Jean
+ La Vegas
+(25 rows)
+
+      tip_date       | tip_complimentsrecv 
+---------------------+---------------------
+ 2015-09-17 15:22:35 |                  11
+ 2017-05-07 05:51:24 |                   6
+ 2015-06-18 19:04:37 |                   9
+ 2015-06-27 20:55:34 |                   6
+ 2015-08-16 06:41:22 |                   8
+ 2016-09-14 19:57:29 |                  12
+ 2017-07-28 19:44:23 |                   6
+ 2016-11-15 10:26:49 |                  15
+ 2017-02-28 16:25:31 |                   7
+ 2017-05-25 03:51:22 |                   7
+ 2016-08-18 00:13:03 |                   6
+ 2015-08-13 02:22:17 |                   6
+(12 rows)
+
+      bus_name      |         loc_address          |   loc_city   | loc_state | loc_zip 
+--------------------+------------------------------+--------------+-----------+---------
+ USPS               | 1101 Sunset Rd               | Charlotte    | NC        | 28216
+ USPS               | 400 Gilead Rd                | Huntersville | NC        | 28078
+ USPS               | 1040 Dale Earnhardt Blvd     | Kannapolis   | NC        | 28083
+ USPS               | 8240 Ballantyne Commons Pkwy | Charlotte    | NC        | 28277
+ USPS               | 819 N Wendover Rd            | Charlotte    | NC        | 28211
+ USPS               | 10926 Quality Dr             | Charlotte    | NC        | 28278
+ USPS               | 1882 S New Hope Rd           | Gastonia     | NC        | 28054
+ USPS Carrier Annex | 430 Minuet Ln                | Charlotte    | NC        | 28217
+ USPS               | 11035 Golf Links Dr N        | Charlotte    | NC        | 28277
+(9 rows)
+
+                      bus_name                       | cat_id  
+-----------------------------------------------------+---------
+ The Range At Lake Norman                            | 2000000
+ Carlos Santo, NMD                                   | 2000001
+ Xtreme Couture                                      | 2000009
+ Gateway Fit Body Boot Camp                          | 2000019
+ Beechmont Country Club                              | 2000032
+ LA Fitness                                          | 2000054
+ Maximum Performance Batting Cages & Training Center | 2000069
+ Shaolin Temple Quanfa Institute                     | 2000074
+ Veterans Park                                       | 2000079
+ Granite Grille at Shale Creek Golf Club             | 2000108
+ Pure Fitness                                        | 2000113
+ Amega Shooting Supplies                             | 2000127
+ Chef Alyssa's Kitchen                               | 2000147
+ Mississauga Family Fitness                          | 2000161
+ Fitness Nation                                      | 2000166
+ Pioneer Community Park                              | 2000169
+ Northwest Pool and Spa                              | 2000170
+ Planet Fitness                                      | 2000189
+ 103 Hot Pilates & Yoga                              | 2000196
+ Victoria Park - Club de Santé                       | 2000243
+ Master Shin's World Class Tae Kwon Do               | 2000246
+ Club Pilates                                        | 2000262
+ Margaret T Hance Park                               | 2000297
+ AZ Air Time                                         | 2000317
+ The Refuge Climbing and Fitness                     | 2000325
+(25 rows)
+
+   bus_name    |         bus_id         |         rev_id         | rev_rating |      rev_date       
+---------------+------------------------+------------------------+------------+---------------------
+ Panda Express | ooZQt0jRqrJ_ejhjP8C4Mg | QrP82JsnLjvGz0jPskW28w |          1 | 2019-11-10 02:02:12
+ Panda Express | usRJtfQdy0NtjWb7Ayvmsw | Nj3jllCnRgtuFP4nvHReoA |          2 | 2014-08-02 03:06:31
+ Panda Express | tQaIWc9qeiB1IU163LKlAw | zICvye1HHDTZaSFA_P9gRw |          2 | 2019-10-05 00:19:07
+ Panda Express | ooZQt0jRqrJ_ejhjP8C4Mg | Z7hULR_3EGkuBd4KDG7qcg |          5 | 2019-03-21 01:04:58
+ Panda Express | ea2Ff57FoUrTJLDV7O8tyA | 8o6jLCukfWGSS67otJFw8w |          1 | 2019-08-09 22:54:40
+ Panda Express | usRJtfQdy0NtjWb7Ayvmsw | hnP6eYezgCIuilaJyhutfA |          1 | 2017-09-23 00:53:52
+ Panda Express | tsYriuDpdtaTju7LUANDzg | 2E7FMfXjyMfGjJCKVc2ikQ |          3 | 2019-10-15 19:07:59
+ Panda Express | usRJtfQdy0NtjWb7Ayvmsw | QHA-T3p3jbn2yb9EdaUc7g |          3 | 2010-02-19 16:31:55
+ Panda Express | anhk98859Rmo3mL6X41jbg | 0RJTquGx3Cb7HnYoiLAlbw |          1 | 2019-03-26 23:21:41
+ Panda Express | JF26V4OaZNTJIaDL8950HA | 3Q6ubA41j5VxTYuI5H37GA |          2 | 2019-05-12 22:15:17
+ Panda Express | usRJtfQdy0NtjWb7Ayvmsw | 08kIjaW8rblGrsUNiy_vkg |          1 | 2014-06-24 19:25:46
+ Panda Express | WSfz5kLCsEgrGSYGp9XrLA | 445fT9eFVLac4e90HBSutw |          1 | 2019-08-23 04:21:35
+ Panda Express | WSfz5kLCsEgrGSYGp9XrLA | x56jJyDq5E7rtOSq9NjFqg |          1 | 2019-06-16 17:23:40
+ Panda Express | WSfz5kLCsEgrGSYGp9XrLA | lvyyibsTtYvwXiTFJi9i0g |          1 | 2019-08-14 20:55:17
+ Panda Express | ea2Ff57FoUrTJLDV7O8tyA | QnX5ypNQAivMwroxZtYfpw |          3 | 2018-09-05 19:58:04
+ Panda Express | Ol-IE8GDY3GVxUZbJiMZXQ | hZNC4sfwpxeW5ge84Id4OA |          1 | 2018-12-15 02:13:55
+ Panda Express | Ol-IE8GDY3GVxUZbJiMZXQ | _ILJWN0DWXWdOVrU0uquJg |          1 | 2019-11-09 04:24:44
+ Panda Express | JF26V4OaZNTJIaDL8950HA | 3qSVf88x6LmelcLqRNjAEw |          1 | 2019-02-02 03:49:02
+ Panda Express | WghhtS-tqDWMh_W2O13CYA | 3OLo2DaukZSx1W6DsM9XeQ |          5 | 2018-02-03 22:29:06
+ Panda Express | ooZQt0jRqrJ_ejhjP8C4Mg | gboWtl9govs6we6xw4IESg |          1 | 2019-05-14 20:39:51
+ Panda Express | WghhtS-tqDWMh_W2O13CYA | hWmRiak7uZ9hXw0OPw57EA |          1 | 2019-08-02 00:26:39
+ Panda Express | ooZQt0jRqrJ_ejhjP8C4Mg | 7uzdINOyx4hOaLgPgx-acQ |          2 | 2019-02-26 21:44:38
+ Panda Express | WSfz5kLCsEgrGSYGp9XrLA | bXlfKFIkPU0rAFW8RV1hkQ |          1 | 2018-04-17 19:24:12
+ Panda Express | WghhtS-tqDWMh_W2O13CYA | x2QXPPD1CAYspXIqt3X6Qg |          1 | 2019-07-15 21:17:35
+ Panda Express | ea2Ff57FoUrTJLDV7O8tyA | WXzbqaRPfE_6RC45T8UoFg |          1 | 2018-04-09 00:55:43
+(25 rows)
+
+ count 
+-------
+  4764
+(1 row)
+
+         usr_id         | usr_fname | hist_year  
+------------------------+-----------+------------
+ QaELAmRcDc5TfJEylaaP8g | John      | 2009-01-01
+ E_9Ss4n6bVJmAe1Grc8-Bw | John      | 2015-01-01
+ E_9Ss4n6bVJmAe1Grc8-Bw | John      | 2016-01-01
+ qZlNNWCypJI2FOu0_0-OTQ | John      | 2015-01-01
+ qZlNNWCypJI2FOu0_0-OTQ | John      | 2016-01-01
+ qZlNNWCypJI2FOu0_0-OTQ | John      | 2017-01-01
+ qZlNNWCypJI2FOu0_0-OTQ | John      | 2018-01-01
+ PVVIVG2HJHXWTkgR9fTfIQ | John      | 2012-01-01
+ PVVIVG2HJHXWTkgR9fTfIQ | John      | 2013-01-01
+ PVVIVG2HJHXWTkgR9fTfIQ | John      | 2014-01-01
+ PVVIVG2HJHXWTkgR9fTfIQ | John      | 2015-01-01
+ PVVIVG2HJHXWTkgR9fTfIQ | John      | 2016-01-01
+ PVVIVG2HJHXWTkgR9fTfIQ | John      | 2017-01-01
+ PVVIVG2HJHXWTkgR9fTfIQ | John      | 2018-01-01
+ 2EHRvAkAkJ1WR1TCzqB4tg | Johnny    | 2006-01-01
+ 2EHRvAkAkJ1WR1TCzqB4tg | Johnny    | 2007-01-01
+ j6Kv_wLQzZMWobLIyijX3A | John      | 2006-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2010-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2011-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2012-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2013-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2014-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2015-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2016-01-01
+ Ry1O_KXZHGRI8g5zBR3IcQ | John      | 2017-01-01
+(25 rows)
+
+                      bus_name                      
+----------------------------------------------------
+ Desert Storage
+ Sleep Telemedicine Services
+ Hot Tub Liquidators
+ Southwest Medical Associates at Siena
+ Henderson House Doctors
+ Tropical Smoothie Cafe
+ Credit Union 1
+ Jason's Deli
+ The Pond
+ Yankee Candle Company
+ Bloom
+ Thai Massage Pro
+ Regus Nevada Horizon Ridge Parkway
+ Central Coffee Shop
+ MountainSide
+ Soft Touch Dental
+ Above All Las Vegas ATV Tours & Watercraft Rentals
+ Paseo Vista Park
+ Amy's Hallmark
+ La Serena At the Heights
+ Nationwide Safety Brakes & Alignment Center
+ Halo Plumbing
+ Henderson Hyundai Superstore
+ Action Comics & Sports
+ Chucks Auto Shop
+(25 rows)
+
+                  bus_name                  | loc_zip | tip_id  
+--------------------------------------------+---------+---------
+ Bouchon                                    | 89109   | 4000008
+ Max Brenner                                | 89109   | 4000013
+ ILLUSIONS starring Jan Rouven              | 89109   | 4000017
+ Cabo Wabo Cantina                          | 89109   | 4000024
+ Hooters Restaurant                         | 89109   | 4000054
+ La Creperie                                | 89109   | 4000064
+ MGM Grand Hotel                            | 89109   | 4000089
+ Fukuburger                                 | 89109   | 4000109
+ Bouchon                                    | 89109   | 4000141
+ Ellis Island Hotel, Casino & Brewery       | 89109   | 4000149
+ New York New York Hotel & Casino           | 89109   | 4000167
+ Paradise Garden Buffet                     | 89109   | 4000205
+ Crazy Girls                                | 89109   | 4000207
+ Harrah's Las Vegas Hotel & Casino          | 89109   | 4000219
+ Holsteins                                  | 89109   | 4000252
+ The Cosmopolitan of Las Vegas              | 89109   | 4000260
+ BARDOT Brasserie                           | 89109   | 4000264
+ Hard Rock Cafe                             | 89109   | 4000270
+ Planet Hollywood Las Vegas Resort & Casino | 89109   | 4000277
+ Guy Fieri's Vegas Kitchen                  | 89109   | 4000284
+ Mesa Grill                                 | 89109   | 4000296
+ HAZE                                       | 89109   | 4000317
+ Planet Hollywood Las Vegas Resort & Casino | 89109   | 4000319
+ Earl of Sandwich                           | 89109   | 4000334
+ Scarpetta                                  | 89109   | 4000372
+(25 rows)
+
+  usr_fname  |  bus_name   |         rev_id         | rev_rating |      rev_date       
+-------------+-------------+------------------------+------------+---------------------
+ Rifka       | Chick-fil-A | 0YfPKjVXDYGugYySEnOc-Q |          5 | 2019-07-23 17:14:47
+ Mark        | Chick-fil-A | bZ_GM35P-3Y1eTNfEjxmlQ |          5 | 2019-11-27 18:20:35
+ Laura       | Chick-fil-A | Eh54bn6-u1Mm-5isClcHCA |          5 | 2017-01-27 02:27:48
+ Alexis      | Chick-fil-A | bJP9fCm5UslTH-pu61eukQ |          1 | 2019-10-16 00:48:55
+ Adam        | Chick-fil-A | OySR79XBVvvqtv7IluKuVw |          3 | 2012-03-18 22:21:08
+ Elisa       | Chick-fil-A | 9Dd3ZVhQYfSy3mmb9t1LoA |          5 | 2019-06-16 06:26:57
+ Kelly Ann   | Chick-fil-A | 7Vg4ZzbxO9kbV5kGSxwfXA |          5 | 2019-10-18 20:58:06
+ Isaiah      | Chick-fil-A | oHxDd_pStBaaG2dKB67Quw |          5 | 2019-02-20 19:11:05
+ Molly       | Chick-fil-A | esKloH1EBSNMHA3jfw7Kzg |          5 | 2019-10-10 02:35:31
+ Jenn        | Chick-fil-A | maWvYWUuvIfczmVYXAIT2A |          5 | 2019-11-28 03:57:26
+ Seth        | Chick-fil-A | ENU61MrwNKWwcCgjTctEEQ |          5 | 2019-07-20 02:12:32
+ Danielle    | Chick-fil-A | KOPpu6b0A-WlsgaEtJ-IhA |          5 | 2019-09-01 13:04:29
+ Haylee      | Chick-fil-A | GURz6NgdPYQzcMm8t9YiVg |          1 | 2019-09-12 22:07:29
+ Fiona Shane | Chick-fil-A | zsbjHX4__TafQA6lUYR6zw |          4 | 2017-10-11 00:34:59
+ Tamara      | Chick-fil-A | 5EglxJGEPypvFwZb4YMmCw |          5 | 2019-02-19 10:16:11
+ Brandon     | Chick-fil-A | cWtDAFVm2EzqkA6xVGGXkA |          1 | 2019-08-17 00:34:03
+ C.          | Chick-fil-A | 8z7MpZtHImt5ON22CCraSA |          3 | 2019-05-31 16:52:51
+ Cameron     | Chick-fil-A | 3z6wditCP-qA_YG5ZSCyAw |          1 | 2019-12-05 13:39:19
+ Lori        | Chick-fil-A | 8GOLeHLsFJ9o8Y8iouYThA |          2 | 2019-01-31 20:46:10
+ Buddy       | Chick-fil-A | Kn9YLNR2ss_CVcDkM43Q4A |          2 | 2019-08-24 14:08:13
+ Ta'Brechi   | Chick-fil-A | QMV0nPbgyEfS3ghYo_h9lQ |          5 | 2017-12-07 07:00:32
+ Shayse      | Chick-fil-A | 6kxk0AeQ1GKd_vPXvkIjgA |          5 | 2019-09-24 00:36:37
+ Sharz       | Chick-fil-A | BtVfm5J9gsnB04ruLZ-nVA |          2 | 2017-03-17 04:52:49
+ Captain     | Chick-fil-A | dTz-tcT4_YBePE0ec1HRuw |          2 | 2019-07-31 22:39:08
+ Em          | Chick-fil-A | pzfuNgaRWEDdjOrcCXGQkA |          1 | 2019-03-29 03:26:25
+(25 rows)
+
+         usr_id         | usr_fname | hist_year  | rev_rating 
+------------------------+-----------+------------+------------
+ 002slNgnEtAvsNYFLw7rGA | Anthony   | 2010-01-01 |          5
+ 005GchcM1HWBH3SFKrIxBA | Naomi     | 2012-01-01 |          5
+ 005GchcM1HWBH3SFKrIxBA | Naomi     | 2013-01-01 |          5
+ 0131GdIKFXfl26dMnEN1KQ | Denise    | 2009-01-01 |          5
+ 01Ctz0uXlQ5C07xTty9sIw | Anna      | 2010-01-01 |          5
+ 01Ctz0uXlQ5C07xTty9sIw | Anna      | 2011-01-01 |          5
+ 01Ctz0uXlQ5C07xTty9sIw | Anna      | 2012-01-01 |          5
+ 01IhGl0XmthVaN1n0yVpfQ | Christian | 2012-01-01 |          5
+ 01IhGl0XmthVaN1n0yVpfQ | Christian | 2013-01-01 |          5
+ 01LQrnnJOnp5pMjYosF_Ow | Troy      | 2007-01-01 |          5
+ 01p5x1EtO4KCaf1RUgwoHA | Jenny     | 2013-01-01 |          5
+ 027vqfwDAMe2q0s2L1FhJg | Tina      | 2010-01-01 |          5
+ 02HJNyOzzYXvEKVApJb8GQ | Jason     | 2010-01-01 |          5
+ 02HJNyOzzYXvEKVApJb8GQ | Jason     | 2011-01-01 |          5
+ 02HJNyOzzYXvEKVApJb8GQ | Jason     | 2012-01-01 |          5
+ 02HJNyOzzYXvEKVApJb8GQ | Jason     | 2013-01-01 |          5
+ 02NOWC1GKzf75MfdVuerxA | Preston   | 2012-01-01 |          5
+ 02NOWC1GKzf75MfdVuerxA | Preston   | 2013-01-01 |          5
+ 02-sHXZiCbEINxYmDt0xUw | Ida       | 2011-01-01 |          5
+ 02-sHXZiCbEINxYmDt0xUw | Ida       | 2012-01-01 |          5
+ 02-sHXZiCbEINxYmDt0xUw | Ida       | 2013-01-01 |          5
+ 02T2bOjxwZpAxRhqSI1Z2w | Sarah     | 2008-01-01 |          5
+ 02T2bOjxwZpAxRhqSI1Z2w | Sarah     | 2009-01-01 |          5
+ 02YdTEWFTFr6p71AZJVQ0Q | Stacy     | 2009-01-01 |          5
+ 02YdTEWFTFr6p71AZJVQ0Q | Stacy     | 2010-01-01 |          5
+(25 rows)
+
+             bus_name             | loc_city |             loc_address              | cat_id  
+----------------------------------+----------+--------------------------------------+---------
+ Tzikii Food Truck                | Tempe    | 7510 S Priest Dr                     | 2000057
+ Church's Chicken                 | Tempe    | 5000 S Arizona Mills Cir, Space FC 8 | 2000303
+ Zero Degrees                     | Tempe    | 2000 E Rio Salado Pkwy, Ste 1069     | 2000389
+ Arizona Distilling               | Tempe    | 601 W University Dr                  | 2000561
+ Rally's                          | Tempe    | 1410 West University                 | 2000279
+ Arizona Donut                    | Tempe    | 1030 W Broadway Rd                   | 2000944
+ Apache Food Mart                 | Tempe    | 1900 E Apache Blvd                   | 2001055
+ Rollins Market                   | Tempe    | 1090 W 5th St                        | 2001356
+ India Bazaar Salon               | Tempe    | 1301 E University Dr, Ste 119        | 2001516
+ Jersey Mike's Subs               | Tempe    | 555 North Scottsdale Rd, Ste 103     | 2001554
+ Subway                           | Tempe    | 950 S Mill Ave                       | 2001607
+ The Original Hoagie Shop         | Tempe    | 1335 W University Dr, Ste 2          | 2002038
+ The Cake Lady                    | Tempe    |                                      | 2001494
+ Mobil Gas Station                | Tempe    | 2165 E Baseline Rd                   | 2002154
+ Panda Express                    | Tempe    | 5000 S Arizona Mills Cir, Ste 645    | 2001997
+ Barmagic                         | Tempe    |                                      | 2002787
+ Taco Bell                        | Tempe    | 855 W. Baseline                      | 2002829
+ Bar Louie - Tempe Marketplace    | Tempe    | 2000 Rio Salado Pkwy, Ste 1220       | 2002980
+ Venezia Bakery - Wholesaler      | Tempe    | 207 S Siesta Ln                      | 2001905
+ Panda Express                    | Tempe    | 908 E Broadway Ave                   | 2000387
+ Kneaders Bakery and Cafe - Tempe | Tempe    | 2030 E Elliot Rd                     | 2003527
+ Starbucks                        | Tempe    | 871 W. University Drive              | 2000280
+ Pizza Hut                        | Tempe    | 1712 E Guadalupe Rd, Ste 102         | 2003622
+ 7-Eleven                         | Tempe    | 1006 S Mcclintock Dr                 | 2003891
+ Boba Deli                        | Tempe    | 420 S. Mill Ave, Ste 106             | 2004096
+(25 rows)
+
+CREATE VIEW
+                 bus_name                  | bus_reviewcount 
+-------------------------------------------+-----------------
+ The Range At Lake Norman                  |              36
+ Carlos Santo, NMD                         |               4
+ Felinus                                   |               5
+ Nevada House of Hose                      |               3
+ USE MY GUY SERVICES LLC                   |              26
+ Oasis Auto Center - Gilbert               |              38
+ Green World Cleaners                      |              81
+ Junction Tire & Auto Service              |              18
+ The Empanadas House                       |               5
+ Xtreme Couture                            |              16
+ Chinook Landscaping and Design            |               3
+ Dependable Brakes & Exhaust               |               5
+ Chocolate Shoppe Ice Cream                |               6
+ Convertabath                              |              10
+ Tan Las Vegas                             |               5
+ Desert Storage                            |               5
+ Manolo Blahnik                            |              32
+ Bloom & Blueprint                         |               7
+ Car Guyz                                  |              10
+ Gateway Fit Body Boot Camp                |              16
+ Middle East Deli                          |               5
+ Glendale Glitters                         |              52
+ North Carolina Brewers And Music Festival |               3
+ Tipsy Ryde                                |               3
+ Philthy Phillys                           |               4
+(25 rows)
+
